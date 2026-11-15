@@ -60,7 +60,7 @@ class GymApp(
         page.bgcolor = self.BACKGROUND
         page.theme_mode = ft.ThemeMode.DARK
         page.theme = ft.Theme(color_scheme_seed=self.ORANGE)
- 
+
         self.db = CsvDatabase()
         self.manager = GymManager(self.db)
         self.selected_customer_id = None
@@ -74,7 +74,7 @@ class GymApp(
         self.selected_renewal_member_id = None
         self.shell_visible = False
         page.on_keyboard_event = lambda event: self.record_activity()
- 
+
         # --- Sidebar ---
         self.nav_buttons = {}
         nav_items = []
@@ -127,7 +127,7 @@ class GymApp(
                 spacing=4,
             ),
         )
- 
+
         # --- Header + content ---
         self.title_label = ft.Text(
             "Dashboard", size=25, weight=ft.FontWeight.BOLD, color=self.TEXT_PRIMARY
@@ -176,6 +176,6 @@ class GymApp(
             spacing=0,
             vertical_alignment=ft.CrossAxisAlignment.STRETCH,
         )
- 
+
         threading.Thread(target=self._background_loop, daemon=True).start()
         self.show_login_page()

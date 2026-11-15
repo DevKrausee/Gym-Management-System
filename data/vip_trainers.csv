@@ -1,0 +1,5 @@
+﻿id,name,active,phone,working_days,available_from,available_to
+1,John Prat,1,,"Mon,Tue,Wed,Thu,Fri,Sat",08:00,21:00
+2,Tom Parker,1,09123,"Mon,Tue,Wed,Thu,Fri",08:00,21:00
+3,Dylan,1,,"Mon,Tue,Wed,Thu,Fri",08:00,21:00
+4,Robin Hood,1,,"Mon,Tue,Wed",08:00,21:00

@@ -7,7 +7,7 @@ import threading
 import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
- 
+
 import flet as ft
  
 APP_NAME = "BSIT-2B Gym"

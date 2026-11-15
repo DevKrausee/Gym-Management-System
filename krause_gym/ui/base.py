@@ -45,7 +45,7 @@ class BaseUIMixin:
             self.close_dialog(dialog)
             if on_ok:
                 on_ok()
- 
+
         dialog = ft.AlertDialog(
             modal=True,
             title=ft.Text(title, weight=ft.FontWeight.BOLD),

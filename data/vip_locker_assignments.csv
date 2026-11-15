@@ -1,0 +1,4 @@
+﻿id,locker_id,customer_id,assigned_at,released_at,assigned_by,released_by
+1,1,1,2026-11-06 11:52:33,,1,
+2,2,13,2026-11-09 14:50:51,,1,
+3,3,6,2026-11-13T22:28:19,,1,
